@@ -1,0 +1,43 @@
+body{
+    font-family: arial;
+    background-color: bisque;
+}
+
+#main-heading, #sub-heading{
+    text-align: center;
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 180px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+#todo-input{
+    font-size: 20px;
+    padding: 8px;
+}
+#todo-date{
+    font-size: 17px;
+    padding: 8px;
+}
+.todo-btn{
+    background-color:rgb(40, 155, 74);
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
+.delete-btn{
+    background-color: brown; 
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
